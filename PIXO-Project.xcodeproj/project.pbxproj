@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF3B5471F33545D72329DA14 /* Pods_PIXO_Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A823F0338F4ADCFAF321268E /* Pods_PIXO_Project.framework */; };
+		FC95C5A827709BB700D8CDDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC95C5A727709BB600D8CDDB /* AppDelegate.swift */; };
+		FC95C5AC27709BB700D8CDDB /* PhotoPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC95C5AB27709BB700D8CDDB /* PhotoPickerVC.swift */; };
+		FC95C5AF27709BB700D8CDDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC95C5AD27709BB700D8CDDB /* Main.storyboard */; };
+		FC95C5B127709BBC00D8CDDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC95C5B027709BBC00D8CDDB /* Assets.xcassets */; };
+		FC95C5B427709BBC00D8CDDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC95C5B227709BBC00D8CDDB /* LaunchScreen.storyboard */; };
+		FC95C5BC2770A21A00D8CDDB /* PhotoPickerVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC95C5BB2770A21A00D8CDDB /* PhotoPickerVM.swift */; };
+		FC95C5BE2770A2BB00D8CDDB /* PhotoPickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC95C5BD2770A2BB00D8CDDB /* PhotoPickerCell.swift */; };
+		FC95C5C02770A64A00D8CDDB /* PhotoPickerColllectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC95C5BF2770A64A00D8CDDB /* PhotoPickerColllectionView.swift */; };
+		FC95C5C22770ACAC00D8CDDB /* PhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC95C5C12770ACAC00D8CDDB /* PhotoView.swift */; };
+		FC95C5C42770C3FE00D8CDDB /* PhotoPickerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC95C5C32770C3FE00D8CDDB /* PhotoPickerCell.xib */; };
+		FC95C5C72770D76600D8CDDB /* LibraryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC95C5C62770D76600D8CDDB /* LibraryVC.swift */; };
+		FC95C5C92770D7DE00D8CDDB /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC95C5C82770D7DE00D8CDDB /* LibraryView.swift */; };
+		FC95C5CC2770D95B00D8CDDB /* LibraryCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC95C5CB2770D95B00D8CDDB /* LibraryCollectionView.swift */; };
+		FC95C5CE2770DA2300D8CDDB /* LibraryCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC95C5CD2770DA2300D8CDDB /* LibraryCollectionCell.swift */; };
+		FC95C5D02770DA2B00D8CDDB /* LibraryCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC95C5CF2770DA2B00D8CDDB /* LibraryCollectionCell.xib */; };
+		FC95C5D22770DAE700D8CDDB /* LibraryVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC95C5D12770DAE700D8CDDB /* LibraryVM.swift */; };
+		FCABD67227724846000CB9DC /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCABD67127724846000CB9DC /* UIImage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		448BF1FD4B66EEC6D2BBA0D0 /* Pods-PIXO-Project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PIXO-Project.debug.xcconfig"; path = "Target Support Files/Pods-PIXO-Project/Pods-PIXO-Project.debug.xcconfig"; sourceTree = "<group>"; };
+		8C94D308E14708E8B81AED95 /* Pods-PIXO-Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PIXO-Project.release.xcconfig"; path = "Target Support Files/Pods-PIXO-Project/Pods-PIXO-Project.release.xcconfig"; sourceTree = "<group>"; };
+		A823F0338F4ADCFAF321268E /* Pods_PIXO_Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PIXO_Project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC95C5A427709BB600D8CDDB /* PIXO-Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PIXO-Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC95C5A727709BB600D8CDDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC95C5AB27709BB700D8CDDB /* PhotoPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPickerVC.swift; sourceTree = "<group>"; };
+		FC95C5AE27709BB700D8CDDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC95C5B027709BBC00D8CDDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC95C5B327709BBC00D8CDDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC95C5B527709BBC00D8CDDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC95C5BB2770A21A00D8CDDB /* PhotoPickerVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPickerVM.swift; sourceTree = "<group>"; };
+		FC95C5BD2770A2BB00D8CDDB /* PhotoPickerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPickerCell.swift; sourceTree = "<group>"; };
+		FC95C5BF2770A64A00D8CDDB /* PhotoPickerColllectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPickerColllectionView.swift; sourceTree = "<group>"; };
+		FC95C5C12770ACAC00D8CDDB /* PhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoView.swift; sourceTree = "<group>"; };
+		FC95C5C32770C3FE00D8CDDB /* PhotoPickerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoPickerCell.xib; sourceTree = "<group>"; };
+		FC95C5C62770D76600D8CDDB /* LibraryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryVC.swift; sourceTree = "<group>"; };
+		FC95C5C82770D7DE00D8CDDB /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		FC95C5CB2770D95B00D8CDDB /* LibraryCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryCollectionView.swift; sourceTree = "<group>"; };
+		FC95C5CD2770DA2300D8CDDB /* LibraryCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryCollectionCell.swift; sourceTree = "<group>"; };
+		FC95C5CF2770DA2B00D8CDDB /* LibraryCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LibraryCollectionCell.xib; sourceTree = "<group>"; };
+		FC95C5D12770DAE700D8CDDB /* LibraryVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryVM.swift; sourceTree = "<group>"; };
+		FCABD67127724846000CB9DC /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC95C5A127709BB600D8CDDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF3B5471F33545D72329DA14 /* Pods_PIXO_Project.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89B5BED96A1CE712E2125ABB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				448BF1FD4B66EEC6D2BBA0D0 /* Pods-PIXO-Project.debug.xcconfig */,
+				8C94D308E14708E8B81AED95 /* Pods-PIXO-Project.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EF09B3961CF5998B97F1693D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A823F0338F4ADCFAF321268E /* Pods_PIXO_Project.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC95C59B27709BB600D8CDDB = {
+			isa = PBXGroup;
+			children = (
+				FC95C5A627709BB600D8CDDB /* PIXO-Project */,
+				FC95C5A527709BB600D8CDDB /* Products */,
+				89B5BED96A1CE712E2125ABB /* Pods */,
+				EF09B3961CF5998B97F1693D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FC95C5A527709BB600D8CDDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC95C5A427709BB600D8CDDB /* PIXO-Project.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC95C5A627709BB600D8CDDB /* PIXO-Project */ = {
+			isa = PBXGroup;
+			children = (
+				FCABD67327724851000CB9DC /* Extension */,
+				FC95C5CA2770D90900D8CDDB /* Library */,
+				FC95C5C52770C9AC00D8CDDB /* PhotoPicker */,
+				FC95C5A727709BB600D8CDDB /* AppDelegate.swift */,
+				FC95C5B527709BBC00D8CDDB /* Info.plist */,
+				FC95C5AD27709BB700D8CDDB /* Main.storyboard */,
+				FC95C5B227709BBC00D8CDDB /* LaunchScreen.storyboard */,
+				FC95C5B027709BBC00D8CDDB /* Assets.xcassets */,
+			);
+			path = "PIXO-Project";
+			sourceTree = "<group>";
+		};
+		FC95C5C52770C9AC00D8CDDB /* PhotoPicker */ = {
+			isa = PBXGroup;
+			children = (
+				FC95C5AB27709BB700D8CDDB /* PhotoPickerVC.swift */,
+				FC95C5C12770ACAC00D8CDDB /* PhotoView.swift */,
+				FC95C5BF2770A64A00D8CDDB /* PhotoPickerColllectionView.swift */,
+				FC95C5BD2770A2BB00D8CDDB /* PhotoPickerCell.swift */,
+				FC95C5C32770C3FE00D8CDDB /* PhotoPickerCell.xib */,
+				FC95C5BB2770A21A00D8CDDB /* PhotoPickerVM.swift */,
+			);
+			path = PhotoPicker;
+			sourceTree = "<group>";
+		};
+		FC95C5CA2770D90900D8CDDB /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				FC95C5C62770D76600D8CDDB /* LibraryVC.swift */,
+				FC95C5C82770D7DE00D8CDDB /* LibraryView.swift */,
+				FC95C5CB2770D95B00D8CDDB /* LibraryCollectionView.swift */,
+				FC95C5CD2770DA2300D8CDDB /* LibraryCollectionCell.swift */,
+				FC95C5CF2770DA2B00D8CDDB /* LibraryCollectionCell.xib */,
+				FC95C5D12770DAE700D8CDDB /* LibraryVM.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		FCABD67327724851000CB9DC /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FCABD67127724846000CB9DC /* UIImage.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC95C5A327709BB600D8CDDB /* PIXO-Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC95C5B827709BBC00D8CDDB /* Build configuration list for PBXNativeTarget "PIXO-Project" */;
+			buildPhases = (
+				2021F5B3B74E25AAC5124F44 /* [CP] Check Pods Manifest.lock */,
+				FC95C5A027709BB600D8CDDB /* Sources */,
+				FC95C5A127709BB600D8CDDB /* Frameworks */,
+				FC95C5A227709BB600D8CDDB /* Resources */,
+				285128B79027346E1F0FB8E5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PIXO-Project";
+			productName = "PIXO-Project";
+			productReference = FC95C5A427709BB600D8CDDB /* PIXO-Project.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC95C59C27709BB600D8CDDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					FC95C5A327709BB600D8CDDB = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = FC95C59F27709BB600D8CDDB /* Build configuration list for PBXProject "PIXO-Project" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC95C59B27709BB600D8CDDB;
+			productRefGroup = FC95C5A527709BB600D8CDDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC95C5A327709BB600D8CDDB /* PIXO-Project */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC95C5A227709BB600D8CDDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC95C5D02770DA2B00D8CDDB /* LibraryCollectionCell.xib in Resources */,
+				FC95C5C42770C3FE00D8CDDB /* PhotoPickerCell.xib in Resources */,
+				FC95C5B427709BBC00D8CDDB /* LaunchScreen.storyboard in Resources */,
+				FC95C5B127709BBC00D8CDDB /* Assets.xcassets in Resources */,
+				FC95C5AF27709BB700D8CDDB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2021F5B3B74E25AAC5124F44 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PIXO-Project-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		285128B79027346E1F0FB8E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PIXO-Project/Pods-PIXO-Project-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PIXO-Project/Pods-PIXO-Project-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PIXO-Project/Pods-PIXO-Project-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC95C5A027709BB600D8CDDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC95C5AC27709BB700D8CDDB /* PhotoPickerVC.swift in Sources */,
+				FC95C5BC2770A21A00D8CDDB /* PhotoPickerVM.swift in Sources */,
+				FC95C5CC2770D95B00D8CDDB /* LibraryCollectionView.swift in Sources */,
+				FC95C5C22770ACAC00D8CDDB /* PhotoView.swift in Sources */,
+				FC95C5C72770D76600D8CDDB /* LibraryVC.swift in Sources */,
+				FC95C5CE2770DA2300D8CDDB /* LibraryCollectionCell.swift in Sources */,
+				FC95C5C92770D7DE00D8CDDB /* LibraryView.swift in Sources */,
+				FC95C5A827709BB700D8CDDB /* AppDelegate.swift in Sources */,
+				FC95C5D22770DAE700D8CDDB /* LibraryVM.swift in Sources */,
+				FCABD67227724846000CB9DC /* UIImage.swift in Sources */,
+				FC95C5C02770A64A00D8CDDB /* PhotoPickerColllectionView.swift in Sources */,
+				FC95C5BE2770A2BB00D8CDDB /* PhotoPickerCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FC95C5AD27709BB700D8CDDB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC95C5AE27709BB700D8CDDB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC95C5B227709BBC00D8CDDB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC95C5B327709BBC00D8CDDB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC95C5B627709BBC00D8CDDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC95C5B727709BBC00D8CDDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC95C5B927709BBC00D8CDDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 448BF1FD4B66EEC6D2BBA0D0 /* Pods-PIXO-Project.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LH2D7MUGD3;
+				INFOPLIST_FILE = "PIXO-Project/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jbk.PIXO-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC95C5BA27709BBC00D8CDDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C94D308E14708E8B81AED95 /* Pods-PIXO-Project.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LH2D7MUGD3;
+				INFOPLIST_FILE = "PIXO-Project/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jbk.PIXO-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC95C59F27709BB600D8CDDB /* Build configuration list for PBXProject "PIXO-Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC95C5B627709BBC00D8CDDB /* Debug */,
+				FC95C5B727709BBC00D8CDDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC95C5B827709BBC00D8CDDB /* Build configuration list for PBXNativeTarget "PIXO-Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC95C5B927709BBC00D8CDDB /* Debug */,
+				FC95C5BA27709BBC00D8CDDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC95C59C27709BB600D8CDDB /* Project object */;
+}
